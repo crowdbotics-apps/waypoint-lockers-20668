@@ -51,8 +51,7 @@ export class _Blank extends React.Component {
             fontSize: 12,
             color: "#ffffff",
             textAlign: "center",
-            fontWeight: "normal",
-            fontStyle: "normal"
+            fontFamily: "Merriweather-Bold"
           }}
           style={this.props.themedStyle.Button_7}
           onPress={() => alert("Pressed!")}
@@ -165,8 +164,7 @@ export default Blank = withStyles(_Blank, theme => ({
     fontSize: 12,
     color: "#ffffff",
     backgroundColor: "#000000",
-    fontStyle: "normal",
-    fontWeight: "normal",
+    fontFamily: "Merriweather-Bold",
     borderColor: "#000000",
     borderStyle: "solid",
     borderWidth: 0,
