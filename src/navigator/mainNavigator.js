@@ -9,7 +9,6 @@ import EmailAuth1109573Navigator from '../features/EmailAuth1109573/navigator';
 import Tutorial2109572Navigator from '../features/Tutorial2109572/navigator';
 import Maps3109571Navigator from '../features/Maps3109571/navigator';
 import BlankScreen1109570Navigator from '../features/BlankScreen1109570/navigator';
-import BlankScreen0109569Navigator from '../features/BlankScreen0109569/navigator';
 
 /**
  * new navigators can be imported here
@@ -22,7 +21,6 @@ EmailAuth1109573: { screen: EmailAuth1109573Navigator },
 Tutorial2109572: { screen: Tutorial2109572Navigator },
 Maps3109571: { screen: Maps3109571Navigator },
 BlankScreen1109570: { screen: BlankScreen1109570Navigator },
-BlankScreen0109569: { screen: BlankScreen0109569Navigator },
 
     /** new navigators can be added here */
     SplashScreen: {
